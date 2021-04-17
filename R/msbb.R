@@ -17,7 +17,7 @@ wrangleMSBB <- function( destDir = "~/data/amp-ad/msbb" )
 
     ## Login to Synapse and download/wrangle data
     cat( "Logging in to Synapse...\n" )
-    synapser::synLogin()
+    synapser::synLogin('smalldots','zhang1993')
 
     ## Load biotype annotations and retrieve names of protein-coding genes
     cat( "Downloading biotype annotations...\n" )
