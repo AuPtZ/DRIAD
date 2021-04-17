@@ -17,7 +17,7 @@ wrangleROSMAP <- function( destDir = "~/data/amp-ad/rosmap" )
     
     ## Login to Synapse and download/wrangle data
     cat( "Logging in to Synapse... " )
-    synapser::synLogin()
+    synapser::synLogin('smalldots','zhang1993')
 
     ## Read raw expression matrix
     cat( "Downloading expression data...\n" )
